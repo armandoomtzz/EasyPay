@@ -8,3 +8,5 @@ C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPa
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.pdb
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.frmLogin.resources
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.frmStock.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.frmProductos.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.frmVenta.resources
