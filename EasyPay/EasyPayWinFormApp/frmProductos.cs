@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace EasyPayWinFormApp
 {
-    public partial class frmLogin : Form
+    public partial class frmProductos : Form
     {
-        public frmLogin()
+        public frmProductos()
         {
             InitializeComponent();
-        }
-
-        private void txtEmpleado_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

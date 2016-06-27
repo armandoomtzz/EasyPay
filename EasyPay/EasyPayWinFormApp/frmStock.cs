@@ -16,5 +16,20 @@ namespace EasyPayWinFormApp
         {
             InitializeComponent();
         }
+
+        private void frmStock_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

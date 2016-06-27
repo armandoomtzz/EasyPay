@@ -6,3 +6,5 @@ C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPa
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.csproj.GenerateResource.Cache
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.exe
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.pdb
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.frmLogin.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.frmStock.resources
