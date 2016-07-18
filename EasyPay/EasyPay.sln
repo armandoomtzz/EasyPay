@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{71
 		dbEasyPayESC.sql = dbEasyPayESC.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPayWebFormApp", "EasyPayWebFormApp\EasyPayWebFormApp.csproj", "{63F5906E-BEBA-4A99-A948-750E8ACD56EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{6759F263-AB70-4D00-9CD2-1BD77EEBA77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6759F263-AB70-4D00-9CD2-1BD77EEBA77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6759F263-AB70-4D00-9CD2-1BD77EEBA77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F5906E-BEBA-4A99-A948-750E8ACD56EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F5906E-BEBA-4A99-A948-750E8ACD56EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F5906E-BEBA-4A99-A948-750E8ACD56EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F5906E-BEBA-4A99-A948-750E8ACD56EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
