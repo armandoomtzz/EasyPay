@@ -5,6 +5,7 @@ Version: 1.0
 
 Historia de modificacion: IS       Fecha                     Descripcion
                           AGMM     14 de Junio del 2016      Se creo el script inicial
+						  AGMM	   18 de Julio del 2016      Se añadio el nobre de la base de datos, asi como la tabla "Administradores" y "Usuarios"
 */
 
 
