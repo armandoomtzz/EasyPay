@@ -60,11 +60,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="Formularios Login\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
+    <Compile Include="Formularios Login\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Login\frmRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Login\frmRegistrar.Designer.cs">
+      <DependentUpon>frmRegistrar.cs</DependentUpon>
     </Compile>
     <Compile Include="frmProductos.cs">
       <SubType>Form</SubType>
@@ -89,8 +95,11 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmLogin.resx">
+    <EmbeddedResource Include="Formularios Login\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Login\frmRegistrar.resx">
+      <DependentUpon>frmRegistrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>

@@ -36,6 +36,7 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblVersion = new System.Windows.Forms.Label();
             this.btnConectar = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblEmpleado
@@ -105,11 +106,21 @@
             this.btnConectar.Text = "Conectar";
             this.btnConectar.UseVisualStyleBackColor = true;
             // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.Location = new System.Drawing.Point(271, 188);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(114, 49);
+            this.btnRegistrar.TabIndex = 8;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 361);
+            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.txtPassword);
@@ -136,6 +147,7 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Button btnConectar;
+        private System.Windows.Forms.Button btnRegistrar;
     }
 }
 
