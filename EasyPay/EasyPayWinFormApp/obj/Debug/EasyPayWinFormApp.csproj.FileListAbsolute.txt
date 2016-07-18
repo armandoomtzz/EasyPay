@@ -10,3 +10,4 @@ C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPa
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.exe
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.pdb
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Login.frmRegistrar.resources

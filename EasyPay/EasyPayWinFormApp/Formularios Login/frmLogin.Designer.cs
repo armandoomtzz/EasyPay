@@ -37,6 +37,7 @@
             this.lblVersion = new System.Windows.Forms.Label();
             this.btnConectar = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
+            this.btnVerificar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblEmpleado
@@ -99,27 +100,41 @@
             // 
             // btnConectar
             // 
-            this.btnConectar.Location = new System.Drawing.Point(271, 265);
+            this.btnConectar.Enabled = false;
+            this.btnConectar.Location = new System.Drawing.Point(271, 300);
             this.btnConectar.Name = "btnConectar";
             this.btnConectar.Size = new System.Drawing.Size(114, 49);
             this.btnConectar.TabIndex = 7;
             this.btnConectar.Text = "Conectar";
             this.btnConectar.UseVisualStyleBackColor = true;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(271, 188);
+            this.btnRegistrar.Location = new System.Drawing.Point(271, 165);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(114, 49);
             this.btnRegistrar.TabIndex = 8;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            // 
+            // btnVerificar
+            // 
+            this.btnVerificar.Location = new System.Drawing.Point(271, 234);
+            this.btnVerificar.Name = "btnVerificar";
+            this.btnVerificar.Size = new System.Drawing.Size(114, 49);
+            this.btnVerificar.TabIndex = 9;
+            this.btnVerificar.Text = "Verificar";
+            this.btnVerificar.UseVisualStyleBackColor = true;
+            this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 361);
+            this.Controls.Add(this.btnVerificar);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.lblVersion);
@@ -148,6 +163,7 @@
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Button btnConectar;
         private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.Button btnVerificar;
     }
 }
 
