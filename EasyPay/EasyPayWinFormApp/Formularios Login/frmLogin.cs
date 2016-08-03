@@ -1,5 +1,6 @@
 ﻿#region Using Directives
 using EasyPayWinFormApp.Formularios_Login;
+using EasyPayWinFormApp.Formularios_Menu;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -29,7 +30,9 @@ namespace EasyPayWinFormApp
         #region Codigo conectar
         private void btnConectar_Click(object sender, EventArgs e)
         {
-            
+            frmMenu form = new frmMenu();
+            form.Show();
+            this.Hide();
         }
         #endregion
 
@@ -50,15 +53,23 @@ namespace EasyPayWinFormApp
 
             string Usuario = txtUsuario.Text;
             string Contraseña = txtPassword.Text;
-            string cadena = "select * from Usuarios where Usuario='" + Usuario + "' and Contraseña='" + Contraseña + "'";
+            string Empleado = txtEmpleado.Text;
+            string cadena = "select * from Usuarios where (Usuario='" + Usuario + "') and (Contrasena='" + Contraseña + "') and (NoEmpleado ='" + Empleado + "')";
 
             SqlCommand comando = new SqlCommand(cadena, conexion);
             SqlDataReader registro = comando.ExecuteReader();
 
             if (registro.Read())
             {
+                conexion.Close();
+                conexion.Open();
                 MessageBox.Show("DATOS CORRECTOS, ¡BIENVENIDO!");
                 btnConectar.Enabled = true;
+
+                string cadena2 = "insert into Entradas(NoEmpleado,FechaHoy) values ('" + Empleado + "',GETDATE())";
+                SqlCommand comando2 = new SqlCommand(cadena2, conexion);
+                SqlDataReader registro2 = comando2.ExecuteReader();
+                conexion.Close();
             }
             else
             {

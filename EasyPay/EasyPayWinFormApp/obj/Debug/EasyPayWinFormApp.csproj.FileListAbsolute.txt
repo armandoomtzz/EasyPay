@@ -11,3 +11,11 @@ C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPa
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.pdb
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.csprojResolveAssemblyReference.cache
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Login.frmRegistrar.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Menu.frmMenu.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formualrios_Productos.frmModProductos.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Venta.frmPagar.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Administrador.frmMenuAdmin.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Administrador.frmVerEmpleados.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Administrador.frmCambiarUC.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Administrador.frmVerVentas.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Administrador.frmReporte.resources

@@ -51,21 +51,23 @@ namespace EasyPayWinFormApp.Formularios_Login
             SqlConnection conexion = new SqlConnection("server=(local) ; database=dbEasyPayESC ; integrated security = true");
             conexion.Open();
 
-            string NoEmpleado = txtEmpleado.Text;
+            string NoEmpleado = nudEmpleado.Text;
             string Usuario = txtUsuario.Text;
             string Password = txtPassword.Text;
             string Fecha = dtpFecha.Text;
-            string cadena = "insert into Usuarios(NoEmpleado, Usuario, Contraseña, Fecha) values (" + NoEmpleado + ",'" + Usuario + "','" + Password + "','" + Fecha + "')";
+            string Nombre = txtNombre.Text;
+            string cadena = "insert into Usuarios(NoEmpleado, Usuario, Contrasena, Fecha, Nombre) values (" + NoEmpleado + ",'" + Usuario + "','" + Password + "','" + Fecha + "','" + Nombre + "')";
 
             SqlCommand comando = new SqlCommand(cadena, conexion);
             comando.ExecuteNonQuery();
 
             MessageBox.Show("¡DATOS AGREGADOS CORRECTAMENTE!");
 
-            txtEmpleado.Text = "";
+            nudEmpleado.Text = "";
             txtUsuario.Text = "";
             txtPassword.Text = "";
             dtpFecha.Text = "";
+            txtNombre.Text = "";
             conexion.Close();
         }
         #endregion
@@ -78,5 +80,10 @@ namespace EasyPayWinFormApp.Formularios_Login
             this.Hide();
         }
         #endregion
+
+        private void frmRegistrar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

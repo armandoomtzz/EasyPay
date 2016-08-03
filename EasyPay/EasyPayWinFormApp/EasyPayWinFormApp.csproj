@@ -60,6 +60,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formualrios Productos\frmModProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formualrios Productos\frmModProductos.Designer.cs">
+      <DependentUpon>frmModProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmCambiarUC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmCambiarUC.Designer.cs">
+      <DependentUpon>frmCambiarUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmReporte.Designer.cs">
+      <DependentUpon>frmReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmVerEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmVerEmpleados.Designer.cs">
+      <DependentUpon>frmVerEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmMenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmMenuAdmin.Designer.cs">
+      <DependentUpon>frmMenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmVerVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Administrador\frmVerVentas.Designer.cs">
+      <DependentUpon>frmVerVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios Login\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,22 +108,34 @@
     <Compile Include="Formularios Login\frmRegistrar.Designer.cs">
       <DependentUpon>frmRegistrar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProductos.cs">
+    <Compile Include="Formualrios Productos\frmProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProductos.Designer.cs">
+    <Compile Include="Formualrios Productos\frmProductos.Designer.cs">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmStock.cs">
+    <Compile Include="Formualrios Productos\frmStock.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmStock.Designer.cs">
+    <Compile Include="Formualrios Productos\frmStock.Designer.cs">
       <DependentUpon>frmStock.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmVenta.cs">
+    <Compile Include="Formularios Menu\frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmVenta.Designer.cs">
+    <Compile Include="Formularios Menu\frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Venta\frmPagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Venta\frmPagar.Designer.cs">
+      <DependentUpon>frmPagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Venta\frmVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Venta\frmVenta.Designer.cs">
       <DependentUpon>frmVenta.cs</DependentUpon>
     </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -95,19 +143,43 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formualrios Productos\frmModProductos.resx">
+      <DependentUpon>frmModProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Administrador\frmCambiarUC.resx">
+      <DependentUpon>frmCambiarUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Administrador\frmMenuAdmin.resx">
+      <DependentUpon>frmMenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Administrador\frmReporte.resx">
+      <DependentUpon>frmReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Administrador\frmVerEmpleados.resx">
+      <DependentUpon>frmVerEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Administrador\frmVerVentas.resx">
+      <DependentUpon>frmVerVentas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios Login\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios Login\frmRegistrar.resx">
       <DependentUpon>frmRegistrar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProductos.resx">
+    <EmbeddedResource Include="Formualrios Productos\frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmStock.resx">
+    <EmbeddedResource Include="Formualrios Productos\frmStock.resx">
       <DependentUpon>frmStock.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmVenta.resx">
+    <EmbeddedResource Include="Formularios Menu\frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Venta\frmPagar.resx">
+      <DependentUpon>frmPagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Venta\frmVenta.resx">
       <DependentUpon>frmVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\EasyPayWinFormApp.Properties.Resources.resources" />
