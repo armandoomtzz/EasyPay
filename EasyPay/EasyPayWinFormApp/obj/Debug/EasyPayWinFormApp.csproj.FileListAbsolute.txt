@@ -19,3 +19,7 @@ C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPa
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Administrador.frmCambiarUC.resources
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Administrador.frmVerVentas.resources
 C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.Formularios_Administrador.frmReporte.resources
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\bin\Debug\EasyPayWinFormApp.exe.manifest
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\bin\Debug\EasyPayWinFormApp.application
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.exe.manifest
+C:\Users\USUARIO\Source\Repos\EasyPay\EasyPay\EasyPayWinFormApp\obj\Debug\EasyPayWinFormApp.application
